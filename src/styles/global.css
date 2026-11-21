@@ -106,7 +106,9 @@
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   /* Measure and leading. Font sizes use Tailwind's default scale (text-sm … text-6xl) */
-  --container-prose: 65ch;
+  --container-page: 85.008rem;
+  --container-reading: 59.5056rem;
+  --container-prose: 86.33625ch;
   --leading-body: 1.75;
 }
 
@@ -130,7 +132,7 @@
 }
 
 /* Breakout: lets a block escape the max-w-prose column of a post or page and span the full
-   viewport. Section components re-center themselves (mx-auto max-w-5xl px-4), so wrap one in
+   viewport. Section components re-center themselves (mx-auto max-w-page px-4), so wrap one in
    .not-prose.breakout and it keeps the width it has on the home page.
    Needs html { overflow-x: clip } below, or a classic scrollbar adds horizontal scroll. */
 @utility breakout {
