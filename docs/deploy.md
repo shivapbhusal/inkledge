@@ -42,6 +42,19 @@ Build command: `pnpm build`. Publish directory: `dist`.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/shivapbhusal/inkledge)
 
+## GitHub Pages
+
+Pushes to `main` deploy automatically through `.github/workflows/deploy-pages.yml`.
+
+In the GitHub repository:
+
+1. Open **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Under **Custom domain**, enter `www.inkledge.com` and save.
+4. Enable **Enforce HTTPS** after DNS verification completes.
+
+For the `www` subdomain, create a `CNAME` DNS record for `www` pointing to `shivapbhusal.github.io`. The repository's `CNAME` file already contains `www.inkledge.com`.
+
 ## CI
 
 `.github/workflows/ci.yml` runs on every push to `main` and on pull requests: install, `pnpm check`, `pnpm lint`, `pnpm build`, a Lighthouse run, and an internal link check against `dist`. Use it as a reference for what a deploy pipeline should verify before shipping.
