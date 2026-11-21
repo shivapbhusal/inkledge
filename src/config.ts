@@ -13,6 +13,7 @@ export const site = {
 export const nav = {
   header: [
     { label: 'Publications', href: '/publications' },
+    { label: 'Recognition', href: '/recognition' },
     { label: 'About', href: '/about' },
     { label: 'Appearances', href: '/appearances' },
     { label: 'Contact', href: '/contact' },
