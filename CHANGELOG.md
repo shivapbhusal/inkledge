@@ -18,7 +18,7 @@ All notable changes to this project are documented here. Format: [Keep a Changel
   and fonts load only on pages that contain math.
   If an existing post has two dollar amounts in one paragraph (`$20 and $30`), the text between
   them now renders as a formula: escape them as `\$20`. See it in the demo:
-  [A Typography Sampler](https://pilcrow-free.ondelva.com/blog/typography-sampler/#math-set-as-math).
+  [A Typography Sampler](https://www.inkledge.com/blog/typography-sampler/#math-set-as-math).
 
 ## [1.3.1] - 2026-10-14
 

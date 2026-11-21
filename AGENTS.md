@@ -1,4 +1,4 @@
-# Pilcrow — Guide for AI agents
+# Inkledge — Guide for AI agents
 
 This is the first file AI agents (Claude Code, Cursor, etc.) should read before editing this theme.
 Humans can read it too, but sentences are written so an agent can act on them without guessing.

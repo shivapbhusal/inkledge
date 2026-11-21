@@ -11,7 +11,7 @@ import { site } from './src/config.ts';
 
 // GFM task-list checkboxes have no accessible name and fail Lighthouse's 'label' audit. Wrap the item in a <label>
 const taskListLabels = {
-  name: 'pilcrow-task-list-labels',
+  name: 'inkledge-task-list-labels',
   element: {
     filter: ['li'],
     /** @param {any} node hast Element */
@@ -44,7 +44,7 @@ export default defineConfig({
     sitemap(),
     icon(),
     {
-      name: 'pilcrow-styleguide',
+      name: 'inkledge-styleguide',
       hooks: {
         'astro:config:setup': ({ command, injectRoute }) => {
           // Demo builds only (the demo bar links to it): the changelog as a page

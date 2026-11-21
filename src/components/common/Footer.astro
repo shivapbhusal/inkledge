@@ -6,16 +6,16 @@ import { useT } from '../../i18n/t';
 const t = useT(Astro.currentLocale);
 
 const year = new Date().getFullYear();
-const themeCredit = 'https://ondelva.com/themes/pilcrow';
+const themeCredit = 'https://www.inkledge.com';
 ---
 
-<footer class="border-border mt-24 border-t">
+<footer class="border-border border-t">
   <div class="hang text-muted mx-auto max-w-5xl px-4 pt-10 pb-14 font-sans text-sm">
     <div>
       <p>
         © {year} {site.author} ·{' '}
         <a href={themeCredit} rel="nofollow" class="text-muted hover:text-foreground underline">
-          Pilcrow
+          Inkledge
         </a>{' '}
         theme by ondelva
       </p>

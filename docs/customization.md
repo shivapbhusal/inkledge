@@ -15,9 +15,9 @@ Everything site-specific lives in `src/config.ts`, `src/styles/global.css`, and 
 
 ## Footer credit
 
-The footer carries one line crediting the theme: `Pilcrow theme by ondelva`, linking to the
+The footer carries one line crediting the theme: `Inkledge theme by ondelva`, linking to the
 theme page on ondelva.com. It is a plain link in `src/components/common/Footer.astro` — delete it if you would rather not have it.
-Keeping it is how other people find the theme. Pilcrow Pro ships without it.
+Keeping it is how other people find the theme.
 
 ## Navigation and social links
 
@@ -140,6 +140,6 @@ Notes:
 
 `src/config.ts`, `seo` object:
 
-- `seo.titleTemplate` — e.g. `'%s · Pilcrow'`.
+- `seo.titleTemplate` — e.g. `'%s · Inkledge'`.
 - `seo.twitterHandle`.
 - `seo.jsonLd` — `{ type: 'Person' | 'Organization', name }`, used for structured data.

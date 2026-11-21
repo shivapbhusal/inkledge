@@ -1,10 +1,10 @@
-# Pilcrow
+# Inkledge
 
 A quiet, typography-first Astro theme for writers. Good type, generous measure, nothing else in the way.
 
-[Live demo](https://pilcrow-free.ondelva.com) · [Pro demo](https://pilcrow.ondelva.com) · [Get Pro](https://buy.polar.sh/polar_cl_8dCt7ufpdKweXNgPSp3DH73SlxkMoirMTbBuF3WJooD?utm_source=github)
+[Live demo](https://www.inkledge.com)
 
-What's new: [release notes](https://github.com/ondelva/astro-theme-pilcrow/releases) · [changelog in the demo](https://pilcrow-free.ondelva.com/whats-new/)
+What's new: [release notes](https://github.com/shivapbhusal/inkledge/releases) · [changelog in the demo](https://www.inkledge.com/whats-new/)
 
 ![screenshot](docs/screenshots/home-light.png)
 
@@ -21,7 +21,7 @@ What's new: [release notes](https://github.com/ondelva/astro-theme-pilcrow/relea
 You need Node.js 22.12+ and pnpm 9 or newer (`npm i -g pnpm`). `package.json` pins the exact pnpm version, and pnpm 10+ switches to it on its own.
 
 ```sh
-pnpm create astro@latest my-site -- --template ondelva/astro-theme-pilcrow
+pnpm create astro@latest my-site -- --template shivapbhusal/inkledge
 cd my-site
 pnpm install
 pnpm dev
@@ -36,17 +36,17 @@ Colors and fonts: `src/styles/global.css` (`@theme` block). See [docs/customizat
 
 Static output. Works on Cloudflare Pages, Vercel, Netlify.
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ondelva/astro-theme-pilcrow)
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/shivapbhusal/inkledge)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ondelva/astro-theme-pilcrow)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shivapbhusal/inkledge)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ondelva/astro-theme-pilcrow)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/shivapbhusal/inkledge)
 
 See [docs/deploy.md](docs/deploy.md).
 
 ## Free vs Pro
 
-This is the free, MIT-licensed edition. Pilcrow Pro is built on the same code and adds the following ([Pro demo](https://pilcrow.ondelva.com)):
+This is the MIT-licensed edition. It includes the following:
 
 |                | Free                                            | Pro                                                                                           |
 | -------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -61,7 +61,6 @@ This is the free, MIT-licensed edition. Pilcrow Pro is built on the same code an
 | Footer credit  | One line, easy to remove                        | None                                                                                          |
 | Support        | GitHub Issues                                   | Email (im@ondelva.com), 2 business days                                                       |
 
-[See the Pro demo →](https://pilcrow.ondelva.com) · [Get Pro →](https://buy.polar.sh/polar_cl_8dCt7ufpdKweXNgPSp3DH73SlxkMoirMTbBuF3WJooD?utm_source=github)
 
 ## License
 
