@@ -2,7 +2,7 @@
 import defaultOgImage from './assets/og-default.png';
 
 export const site = {
-  name: 'Inkledge',
+  name: 'InkLedge',
   description: 'A minimal, typography-first Astro theme.',
   url: 'https://www.inkledge.com',
   locale: 'en', // 'en' | 'ko' | 'hu' — UI strings come from src/i18n/<locale>.ts
@@ -12,8 +12,9 @@ export const site = {
 
 export const nav = {
   header: [
-    { label: 'Blog', href: '/blog' },
+    { label: 'Publications', href: '/publications' },
     { label: 'About', href: '/about' },
+    { label: 'Appearances', href: '/appearances' },
     { label: 'Contact', href: '/contact' },
   ],
   footer: [
@@ -32,7 +33,7 @@ export const nav = {
 } as const;
 
 export const seo = {
-  titleTemplate: '%s · Inkledge',
+  titleTemplate: '%s · InkLedge',
   twitterHandle: '',
   jsonLd: { type: 'Person' as 'Person' | 'Organization', name: site.author },
 };

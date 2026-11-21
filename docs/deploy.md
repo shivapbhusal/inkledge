@@ -1,6 +1,6 @@
 # Deploy
 
-Inkledge builds to a static site in `dist/`. There is no server runtime to configure.
+InkLedge builds to a static site in `dist/`. There is no server runtime to configure.
 
 ## Before you deploy
 

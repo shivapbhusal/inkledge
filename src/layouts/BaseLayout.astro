@@ -29,19 +29,11 @@ type Props = ComponentProps<typeof SEO>;
     <Analytics />
     {features.darkMode && <script is:inline>
       (() => {
-        const mq = matchMedia('(prefers-color-scheme: dark)');
-        const apply = () => {
-          let saved = null;
-          try {
-            saved = localStorage.getItem('theme');
-          } catch {}
-          document.documentElement.classList.toggle(
-            'dark',
-            (saved ?? (mq.matches ? 'dark' : 'light')) === 'dark',
-          );
-        };
-        apply();
-        mq.addEventListener('change', apply);
+        let saved = null;
+        try {
+          saved = localStorage.getItem('theme');
+        } catch {}
+        document.documentElement.classList.toggle('dark', saved === 'dark');
       })();
     </script>}
   </head>

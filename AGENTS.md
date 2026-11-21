@@ -1,4 +1,4 @@
-# Inkledge — Guide for AI agents
+# InkLedge — Guide for AI agents
 
 This is the first file AI agents (Claude Code, Cursor, etc.) should read before editing this theme.
 Humans can read it too, but sentences are written so an agent can act on them without guessing.
@@ -25,7 +25,7 @@ After any change, `pnpm check && pnpm build` must pass.
 | Fonts                                    | `@theme` in `src/styles/global.css` + `src/assets/fonts/`   | Self-hosted. Never link external font services                                                                                          |
 | Logo, favicon                            | `src/assets/logo.svg`, `public/favicon.svg`                 |                                                                                                                                         |
 | Default OG image                         | `src/assets/og-default.png`                                 | 1200×630. Imported by `site.defaultOgImage` in `config.ts`                                                                              |
-| Home section order and content           | `src/pages/index.astro`                                     | Assembles components from `src/components/sections/` via props                                                                          |
+| Home page / blog index                  | `src/pages/index.astro`                                     | Renders the post list at the site root                                                                                                   |
 | Add a section                            | `src/components/sections/<Name>.astro`                      | Props only, no data fetching                                                                                                            |
 | Section inside a post                    | Wrap it in `<div class="not-prose breakout">` in the `.mdx` | `breakout` is an `@utility` in `global.css`. Never modify the section component                                                         |
 | Add a blog post                          | `src/content/blog/<slug>.mdx`                               | Frontmatter schema below                                                                                                                |

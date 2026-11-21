@@ -1,4 +1,4 @@
-# Inkledge
+# InkLedge
 
 A quiet, typography-first Astro theme for writers. Good type, generous measure, nothing else in the way.
 

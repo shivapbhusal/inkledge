@@ -1,16 +1,20 @@
 ---
-// Home. Change section order and copy here. Section components live in src/components/sections/.
-// A writer's home page: a short introduction, then the latest posts.
+// The home page is the blog index.
 import BaseLayout from '../layouts/BaseLayout.astro';
-import RecentPosts from '../components/sections/RecentPosts.astro';
+import PostList from '../components/blog/PostList.astro';
 import { useT } from '../i18n/t';
 import { getPosts } from '../utils/posts';
 
 const t = useT(Astro.currentLocale);
 
-const recent = (await getPosts()).slice(0, 6);
+const posts = await getPosts();
 ---
 
-<BaseLayout>
-  <RecentPosts title="Shiva Bhusal’s notebook" posts={recent} moreLabel={t.allPosts} moreHref="/blog/" />
+<BaseLayout title="Notebook" description={t.blogDescription}>
+  <div class="mx-auto max-w-[44.8rem] px-4 py-12 sm:py-16">
+    <h1 class="text-[2.1rem] font-light tracking-tight">Notebook</h1>
+    <div class="mt-8">
+      <PostList posts={posts} />
+    </div>
+  </div>
 </BaseLayout>
