@@ -2,11 +2,11 @@
 import defaultOgImage from './assets/og-default.png';
 
 export const site = {
-  name: 'Pilcrow',
+  name: 'Inkledge',
   description: 'A minimal, typography-first Astro theme.',
-  url: 'https://example.com',
+  url: 'https://www.inkledge.com',
   locale: 'en', // 'en' | 'ko' | 'hu' — UI strings come from src/i18n/<locale>.ts
-  author: 'Ada Marlow', // Fictional demo author. Replace with your name
+  author: 'Shiva Bhusal',
   defaultOgImage, // 1200×630. A post's heroImage takes precedence
 } as const;
 
@@ -26,13 +26,13 @@ export const nav = {
     },
   ],
   social: [
-    { label: 'GitHub', href: 'https://github.com/', icon: 'lucide:github' },
+    { label: 'GitHub', href: 'https://github.com/shivapbhusal', icon: 'lucide:github' },
     // Icons are Lucide names (https://lucide.dev/icons), e.g. { label: 'Mastodon', href: '…', icon: 'lucide:at-sign' }
   ],
 } as const;
 
 export const seo = {
-  titleTemplate: '%s · Pilcrow',
+  titleTemplate: '%s · Inkledge',
   twitterHandle: '',
   jsonLd: { type: 'Person' as 'Person' | 'Organization', name: site.author },
 };
