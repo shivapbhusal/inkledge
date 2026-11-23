@@ -18,15 +18,6 @@ export const nav = {
     { label: 'Appearances', href: '/appearances' },
     { label: 'Contact', href: '/contact' },
   ],
-  footer: [
-    {
-      title: 'Legal',
-      links: [
-        { label: 'Privacy', href: '/privacy' },
-        { label: 'Terms', href: '/terms' },
-      ],
-    },
-  ],
   social: [
     { label: 'GitHub', href: 'https://github.com/shivapbhusal', icon: 'lucide:github' },
     // Icons are Lucide names (https://lucide.dev/icons), e.g. { label: 'Mastodon', href: '…', icon: 'lucide:at-sign' }

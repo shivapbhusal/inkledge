@@ -43,21 +43,5 @@ const themeCredit = 'https://www.inkledge.com';
         </li>
       </ul>
     </div>
-    <nav aria-label={t.footerNav} class="flex flex-wrap gap-x-16 gap-y-8">
-      {nav.footer.map((group) => (
-        <div>
-          <p class="section-label">{group.title}</p>
-          <ul class="mt-2 space-y-1.5" aria-label={group.title}>
-            {group.links.map(({ label, href }) => (
-              <li>
-                <a href={href} class="text-muted hover:text-foreground no-underline">
-                  {label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </nav>
   </div>
 </footer>
